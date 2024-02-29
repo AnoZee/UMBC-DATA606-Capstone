@@ -19,7 +19,7 @@ Heart disease remains one of the leading causes of mortality worldwide, necessit
 
 The dataset chosen for this analysis provides a comprehensive overview of factors potentially contributing to heart diseases. It includes both categorical and numerical data, making it suitable for developing predictive models.
 
-- **Data sources:** [Heart Attack Analysis & Prediction Dataset](https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset)
+- **Data sources:** [Heart Attack Analysis & Prediction Dataset](https://archive.ics.uci.edu/dataset/45/heart+disease)
 - **Data size:** 33 KB
 - **Data shape:** 303 rows x 14 columns
 - **Time period:** Not time-bound
