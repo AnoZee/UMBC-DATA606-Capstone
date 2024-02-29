@@ -19,7 +19,7 @@ Heart disease remains one of the leading causes of mortality worldwide, necessit
 
 The dataset chosen for this analysis provides a comprehensive overview of factors potentially contributing to heart diseases. It includes both categorical and numerical data, making it suitable for developing predictive models.
 
-- **Data sources:** [Heart Attack Analysis & Prediction Dataset](https://archive.ics.uci.edu/dataset/45/heart+disease)
+- **Data sources:** Janosi,Andras, Steinbrunn,William, Pfisterer,Matthias, and Detrano,Robert. (1988). Heart Disease. UCI Machine Learning Repository. https://doi.org/10.24432/C52P4X.
 - **Data size:** 33 KB
 - **Data shape:** 303 rows x 14 columns
 - **Time period:** Not time-bound
