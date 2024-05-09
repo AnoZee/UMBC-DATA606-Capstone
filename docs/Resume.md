@@ -1,6 +1,6 @@
 # Keerti Suhas Parray
 
-![Headshot](https://github.com/AnoZee/UMBC-DATA606-Capstone/blob/f2bc0dda24ce151708a4c0dd12ac52dc77128e76/docs/US%20VPhoto.jpg)
+![Headshot](https://github.com/AnoZee/UMBC-DATA606-Capstone/blob/8eafc068bb0fdd5279527c8dc07c7cecb8145cfd/docs/Profile_Picture.jpeg)
 
 
 [LinkedIn Profile](https://linkedin.com/in/suhasparray)
