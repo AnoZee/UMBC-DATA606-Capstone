@@ -134,7 +134,7 @@ The table below shows the number of missing values in each column:
 
 ### Model Evaluation
 - Draft
-![t-SNE Visualization](/docs/report-images/7.png)
+![t-SNE Visualization](/docs/report-images/71.png)
 
 
 
