@@ -83,7 +83,7 @@ The table below shows the number of missing values in each column:
 </table>
 
 ### Unique Values
-![Unique Values](https://github.com/AnoZee/UMBC-DATA606-Capstone/blob/64863c9d48128a85107e88824629a6a65808ec65/docs/report-images/1.png)
+![Unique Values](/docs/report-images/1.png)
 
 ### Data Cleaning and Transformation
 
@@ -100,10 +100,21 @@ The table below shows the number of missing values in each column:
 - Produced summary statistics of key variables.
 
 ### Univariate Analysis
-![Univariate Analysis](https://github.com/AnoZee/UMBC-DATA606-Capstone/blob/64863c9d48128a85107e88824629a6a65808ec65/docs/report-images/2.png)
+![Univariate Analysis](/docs/report-images/2.png)
 
 ### Bivariate Analysis
-![Bivariate Analysis](https://github.com/AnoZee/UMBC-DATA606-Capstone/blob/a8b73742be9903ac95aa0df9a2eb06ec7d3bc68d/docs/report-images/2.png)
+![Bivariate Analysis](/docs/report-images/3.png)
+
+### Correlation Analysis
+![Correlation Analysis](/docs/report-images/4.png)
+
+**Correlation with Target (Heart Attack)**
+![Correlation Analysis With Target](/docs/report-images/5.png)
+
+
+
+### Clustering Analysis (Dimensionality Reduction - t-SNE Visualization)
+![t-SNE Visualization](/docs/report-images/6.png)
 
 ### Data Cleansing
 - Checked for missing values and duplicate rows.
