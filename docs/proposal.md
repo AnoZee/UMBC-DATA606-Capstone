@@ -47,8 +47,117 @@ The dataset chosen for this analysis provides a comprehensive overview of factor
 ### Features/Predictors:
 - All other variables except the output will be considered for feature selection to develop the ML models.
 
-## Analysis Plan
+## 4. Exploratory Data Analysis (EDA)
 
-We will conduct a comprehensive exploratory data analysis (EDA) to understand the distribution and relationships among the features. This will include correlation analysis to identify potential interactions and dependencies. Cluster analysis will be employed to uncover patterns or subgroups within the data. Finally, we will develop predictive models to assess the accuracy of heart disease diagnosis based on the dataset features.
+### Missing Values
+The table below shows the number of missing values in each column:
+<table>
+<tr>
+<td>
 
-This project aims to contribute to the early detection and prevention of heart disease, leveraging data science and machine learning methodologies to improve healthcare outcomes.
+| Column   | Missing Values |
+|----------|----------------|
+| age      | 0              |
+| sex      | 0              |
+| cp       | 0              |
+| trtbps   | 0              |
+| chol     | 0              |
+| fbs      | 0              |
+| restecg  | 0              |
+
+</td>
+<td>
+
+| Column   | Missing Values |
+|----------|----------------|
+| thalachh | 0              |
+| exng     | 0              |
+| oldpeak  | 0              |
+| slp      | 0              |
+| caa      | 0              |
+| thall    | 0              |
+| output   | 0              |
+
+</td>
+</tr>
+</table>
+
+### Unique Values
+![Unique Values](https://github.com/AnoZee/UMBC-DATA606-Capstone/blob/64863c9d48128a85107e88824629a6a65808ec65/docs/report-images/1.png)
+
+### Data Cleaning and Transformation
+
+- **Number of duplicate rows:** 1
+- **Action Taken:** Duplicate rows have been removed. The dataset now has 302 rows and 14 columns.
+
+**Data Cleaning:**
+- The value 0 in the 'thall' column was replaced with 2. This ensures consistency in the dataset.
+
+**Data Transformation:**
+- Numerical values in various columns were mapped to categorical descriptions for better interpretability.
+
+### Summary Statistics
+- Produced summary statistics of key variables.
+
+### Univariate Analysis
+![Univariate Analysis](https://github.com/AnoZee/UMBC-DATA606-Capstone/blob/64863c9d48128a85107e88824629a6a65808ec65/docs/report-images/2.png)
+
+### Bivariate Analysis
+![Bivariate Analysis](https://github.com/AnoZee/UMBC-DATA606-Capstone/blob/a8b73742be9903ac95aa0df9a2eb06ec7d3bc68d/docs/report-images/2.png)
+
+### Data Cleansing
+- Checked for missing values and duplicate rows.
+- Determined the need for data splitting, merging, pivoting, or melting.
+
+### Data Augmentation
+- Considered bringing in other data sources to augment the dataset, such as population or socioeconomic data from the Census.
+
+### Textual Data Pre-processing
+- Normalized, removed stopwords, and tokenized textual data before analysis in predictive models.
+
+### Ensured Tidy Data
+- Ensured each row represents one observation (one unique entity/subject).
+- Ensured each column represents one unique property of that entity.
+
+## 5. Model Training
+
+### Models Used
+- RandomForest (as chosen earlier)
+- Other potential models: Logistic Regression, Support Vector Machines, K-Nearest Neighbors
+
+### Training Methodology
+- Train-test split: 80/20
+- Python packages used: scikit-learn
+- Development environment: Jupyter Notebook
+
+### Performance Measurement
+- Measured model performance using accuracy, precision, recall, F1-score, and ROC-AUC.
+
+## 6. Application of the Trained Models
+
+### Web App Development
+- Developed a web app using **Streamlit** for user interaction with the trained models.
+- Streamlit was chosen for its simplicity and ease of learning.
+
+## 7. Conclusion
+
+### Summary
+- Successfully developed a predictive model for heart disease using machine learning.
+- Identified significant predictors and achieved reasonable accuracy in predictions.
+
+### Limitations
+- Limited dataset size.
+- Potential biases in the dataset.
+
+### Lessons Learned
+- Importance of data preprocessing and feature selection.
+- Challenges in model selection and tuning.
+
+### Future Research Directions
+- Incorporate larger and more diverse datasets.
+- Explore additional machine learning models and techniques.
+- Integrate real-time data for continuous model improvement.
+
+## 8. References
+
+- Janosi, Andras, Steinbrunn, William, Pfisterer, Matthias, and Detrano, Robert. (1988). Heart Disease. UCI Machine Learning Repository. [https://doi.org/10.24432/C52P4X](https://doi.org/10.24432/C52P4X)
