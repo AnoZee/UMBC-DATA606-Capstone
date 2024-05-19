@@ -111,24 +111,33 @@ The table below shows the number of missing values in each column:
 **Correlation with Target (Heart Attack)**
 ![Correlation Analysis With Target](/docs/report-images/5.png)
 
-
-
 ### Clustering Analysis (Dimensionality Reduction - t-SNE Visualization)
 ![t-SNE Visualization](/docs/report-images/6.png)
 
-### Data Cleansing
-- Checked for missing values and duplicate rows.
-- Determined the need for data splitting, merging, pivoting, or melting.
+## 5. Predictive Analysis
 
-### Data Augmentation
-- Considered bringing in other data sources to augment the dataset, such as population or socioeconomic data from the Census.
+- In this section, we explore the construction of a predictive model for heart disease using various machine learning algorithms. We aim to compare the effectiveness of different models such as Logistic Regression, Support Vector Machines (SVM), Decision Trees, Random Forests, Gradient Boosting, K-Nearest Neighbors (KNN), Naive Bayes, and XGBoost.
 
-### Textual Data Pre-processing
-- Normalized, removed stopwords, and tokenized textual data before analysis in predictive models.
+- The dataset employed contains comprehensive patient data including demographics, blood test results, and heart examination outcomes. Our objective is to predict the presence of heart disease based on these features.
 
-### Ensured Tidy Data
-- Ensured each row represents one observation (one unique entity/subject).
-- Ensured each column represents one unique property of that entity.
+### Data Preprocessing
+
+**Categorization of Features**
+- `Categorical Columns`: Variables that represent categories (e.g., sex, chest pain type).
+- `Numerical Columns`: Variables that are measured on a numeric scale (e.g., age, cholesterol levels).
+
+### Data Splitting
+- Separate the dataset into features (X) and the target variable (y), and then split these into training and testing sets to validate the models effectively.
+
+### Model Training
+- Draft
+
+### Model Evaluation
+- Draft
+![t-SNE Visualization](/docs/report-images/7.png)
+
+
+
 
 ## 5. Model Training
 
