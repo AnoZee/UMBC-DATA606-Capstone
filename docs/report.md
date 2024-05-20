@@ -4,8 +4,10 @@
 
 - **Prepared for:** UMBC Data Science Master Degree Capstone by Dr. Chaojie (Jay) Wang
 - **Author Name:** Suhas Parray
-- **Link to the author's GitHub profile:** [[GitHub Profile Link](https://github.com/AnoZee/)]
-- **Link to the author's LinkedIn profile:** [[LinkedIn Profile Link](https://linkedin.com/in/suhasparray)]
+- **GitHub profile:** [[GitHub Profile Link](https://github.com/AnoZee/)]
+- **LinkedIn profile:** [[LinkedIn Profile Link](https://linkedin.com/in/suhasparray)]
+- **PowerPoint Presentation:** [[PowerPoint Presentation Link](https://linkedin.com/in/suhasparray)]
+- **YouTube Video:** [[YouTube Video Link](https://linkedin.com/in/suhasparray)]
 
 ## 2. Background
 
