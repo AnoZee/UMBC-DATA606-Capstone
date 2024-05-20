@@ -7,7 +7,7 @@
 - **GitHub profile:** [[GitHub Profile Link](https://github.com/AnoZee/)]
 - **LinkedIn profile:** [[LinkedIn Profile Link](https://linkedin.com/in/suhasparray)]
 - **PowerPoint Presentation:** [[PowerPoint Presentation Link](https://github.com/AnoZee/UMBC-DATA606-Capstone/blob/017dca03baec68f691fa289906b6b938d9a6d55b/docs/Predictive%20Analysis%20of%20Heart%20Disease.pdf)]
-- **YouTube Video:** [[YouTube Video Link](https://linkedin.com/in/suhasparray)]
+- **YouTube Video:** [[YouTube Video Link](https://youtu.be/pWcmIfEfSTw)]
 
 ## 2. Background
 
