@@ -231,6 +231,8 @@ While the RandomForestClassifier, KNeighborsClassifier, and XGBoostClassifier ha
 
 ## 8. Web Application
 
+Developed an interactive web application using Streamlit to facilitate user interaction with our predictive heart disease model. The app allows users to input patient data, such as age, sex, chest pain type, and other relevant features, to predict the likelihood of heart disease. The intuitive interface provides instant results, displaying the prediction and key probabilities, enhancing accessibility and practical use for medical professionals and researchers. Below is a screenshot of the web application in action.
+
 ![Streamlit Application](/docs/report-images/WebApp1.jpg)
 
 ## 9. Summary
