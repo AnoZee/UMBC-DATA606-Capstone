@@ -175,6 +175,19 @@ A visible color gradient related to the 'output' variable (heart disease diagnos
 - **Purpose**: Train various machine learning models on the training data.
 - **Approach**: Each model is fitted using its respective algorithm, tuned to optimize performance.
 
+- **Models to be used:**
+  - Logistic Regression, Support Vector Machines (SVM), Decision Trees, Random Forests, Gradient Boosting, K-Nearest Neighbors (KNN), Naive Bayes, and XGBoost.
+
+- **Training methodology:**
+  - Data split: 80/20
+  - Python packages: scikit-learn
+
+- **Development environments:**
+  - Google Colab
+
+- **Performance measurement:**
+  - Metrics: Accuracy, Precision, Recall, F1-Score, ROC-AUC
+
 ### Model Evaluation
 
 - **Purpose**: Assess the accuracy and robustness of each model.
@@ -191,6 +204,7 @@ A visible color gradient related to the 'output' variable (heart disease diagnos
 ![Model Comparison](/docs/report-images/8.png)
 
 ### Evaluation Results
+
 - **Logistic Regression**: Achieved a training accuracy of 86% and a testing accuracy of 85%, indicating good generalization without overfitting.
 - **Support Vector Classifier (SVC)**: Showed a high training accuracy of 90% but a lower testing accuracy of 82%, suggesting potential overfitting.
 - **Decision Tree Classifier**: Exhibited perfect training accuracy of 100% but a testing accuracy of only 80%, clearly overfitting the training data.
@@ -215,7 +229,11 @@ A visible color gradient related to the 'output' variable (heart disease diagnos
 
 While the RandomForestClassifier, KNeighborsClassifier, and XGBoostClassifier have shown promising results, it is crucial to balance model accuracy with interpretability and robustness to overfitting. Employing comprehensive validation techniques and considering the operational context will ensure that the deployed models are both effective and practical.
 
-## 7. Summary
+## 8. Web Application
+
+![Streamlit Application](/docs/report-images/WebApp1.jpg)
+
+## 9. Summary
 
 - This section encapsulates the major steps and findings of the project, highlighting key analytical techniques and model performance insights.
 
@@ -246,6 +264,6 @@ The journey through data exploration, analysis, and predictive modeling provided
 
 This summary provides a holistic view of the project, emphasizing the analytical process and insights gained. It serves as a comprehensive overview for stakeholders or anyone interested in understanding the critical components and outcomes of the project.
 
-## 8. References
+## 10. References
 
 - Janosi, Andras, Steinbrunn, William, Pfisterer, Matthias, and Detrano, Robert. (1988). Heart Disease. UCI Machine Learning Repository. [https://doi.org/10.24432/C52P4X](https://doi.org/10.24432/C52P4X)
