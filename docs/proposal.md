@@ -136,47 +136,65 @@ The table below shows the number of missing values in each column:
 - Draft
 ![t-SNE Visualization](/docs/report-images/71.png)
 
+### Model Comparison
+- After training and evaluating each model, we plot their training and testing accuracies to compare their performance visually. This helps in identifying the models that perform well consistently and those that might be overfitting or underfitting.
+![Model Comparison](/docs/report-images/8.png)
 
+### Evaluation Results
+- **Logistic Regression**: Achieved a training accuracy of 86% and a testing accuracy of 85%, indicating good generalization without overfitting.
+- **Support Vector Classifier (SVC)**: Showed a high training accuracy of 90% but a lower testing accuracy of 82%, suggesting potential overfitting.
+- **Decision Tree Classifier**: Exhibited perfect training accuracy of 100% but a testing accuracy of only 80%, clearly overfitting the training data.
+- **Random Forest Classifier**: Also reached 100% training accuracy with a testing accuracy of 87%, demonstrating better generalization than the Decision Tree.
+- **Gradient Boosting Classifier**: Similar pattern to Random Forest, with perfect training and 85% testing accuracy, indicating some overfitting.
+- **K-Nearest Neighbors (KNN)**: Maintained a consistent performance with 85% training and 87% testing accuracy, showing excellent generalization.
+- **Gaussian Naive Bayes**: Achieved 84% training and 85% testing accuracy, performing robustly on both datasets.
+- **XGBoost Classifier**: Attained perfect training accuracy and a high testing accuracy of 87%, though the perfect training score raises concerns about overfitting.
 
+### Top Performers
+- **Random Forest**, **K-Nearest Neighbors**, and **XGBoost** displayed the highest testing accuracies at 87%, making them the most effective models for this dataset. However, Random Forest and XGBoost showed potential signs of overfitting due to their perfect training scores.
 
-## 5. Model Training
+## 6. Recommendations for Future Work
 
-### Models Used
-- RandomForest (as chosen earlier)
-- Other potential models: Logistic Regression, Support Vector Machines, K-Nearest Neighbors
+### Model Optimization
+- **Hyperparameter Tuning**: Further tuning of model parameters using grid search or random search could potentially improve performance and reduce overfitting.
+- **Cross-Validation**: Implementing k-fold cross-validation may provide a more reliable estimate of model performance and generalizability.
 
-### Training Methodology
-- Train-test split: 80/20
-- Python packages used: scikit-learn
-- Development environment: Jupyter Notebook
+### Practical Considerations
+- **Model Interpretability**: In practical applications, especially in healthcare, understanding the decision-making process of the model is crucial. Models like Logistic Regression and Decision Trees, despite slightly lower performance metrics, offer greater transparency in their predictions.
+- **Ensemble Techniques**: Combining the predictions of several models could enhance prediction accuracy and reliability, leveraging the strengths of individual models while mitigating their weaknesses.
 
-### Performance Measurement
-- Measured model performance using accuracy, precision, recall, F1-score, and ROC-AUC.
+While the RandomForestClassifier, KNeighborsClassifier, and XGBoostClassifier have shown promising results, it is crucial to balance model accuracy with interpretability and robustness to overfitting. Employing comprehensive validation techniques and considering the operational context will ensure that the deployed models are both effective and practical.
 
-## 6. Application of the Trained Models
+## 7. Summary
 
-### Web App Development
-- Developed a web app using **Streamlit** for user interaction with the trained models.
-- Streamlit was chosen for its simplicity and ease of learning.
+- This section encapsulates the major steps and findings of the project, highlighting key analytical techniques and model performance insights.
 
-## 7. Conclusion
+### Exploratory Data Analysis (EDA)
 
-### Summary
-- Successfully developed a predictive model for heart disease using machine learning.
-- Identified significant predictors and achieved reasonable accuracy in predictions.
+- **Purpose**: Understanding the basic statistical properties of the data and the distribution of various features and the target variable.
+- **Findings**: The EDA stage was crucial for identifying trends, anomalies, patterns, and relationships within the data. This phase helped in preparing the data for more advanced analyses and informed the subsequent preprocessing steps.
 
-### Limitations
-- Limited dataset size.
-- Potential biases in the dataset.
+### Correlation Analysis
 
-### Lessons Learned
-- Importance of data preprocessing and feature selection.
-- Challenges in model selection and tuning.
+- **Technique**: Employed a heatmap to visualize the correlation matrix.
+- **Insights**: The correlation analysis was instrumental in identifying which features had significant positive or negative associations with each other and with the target variable 'output'. This helped in feature selection and provided a basis for the predictive modeling.
 
-### Future Research Directions
-- Incorporate larger and more diverse datasets.
-- Explore additional machine learning models and techniques.
-- Integrate real-time data for continuous model improvement.
+### Cluster Analysis
+
+- **Application**: Used to group similar instances, potentially uncovering intrinsic structures within the data.
+- **Utility**: Particularly valuable in exploratory stages or when labels are absent. It helped in identifying distinct groups or patterns in the data, which could be crucial for segmenting data or understanding different risk profiles.
+
+### Machine Learning Prediction
+
+- **Models Evaluated**: Eight different models were applied, including RandomForestClassifier, KNeighborsClassifier, and XGBoost.
+- **Performance Outcome**: The RandomForestClassifier, KNeighborsClassifier, and XGBoost emerged as the top performers with the highest testing accuracy. These models demonstrated a strong capability to generalize well on unseen data.
+- **Model Selection**: The choice of these models was justified by their robustness and accuracy in predicting heart disease, although considerations regarding overfitting and model complexity were also addressed.
+
+### Conclusions
+
+The journey through data exploration, analysis, and predictive modeling provided deep insights into the factors influencing heart disease. The selected machine learning models showed promising results, but it is essential to balance accuracy with model interpretability and robustness. Future work could explore more advanced model tuning, cross-validation techniques, and the integration of more complex models to enhance predictive performance further.
+
+This summary provides a holistic view of the project, emphasizing the analytical process and insights gained. It serves as a comprehensive overview for stakeholders or anyone interested in understanding the critical components and outcomes of the project.
 
 ## 8. References
 
